@@ -1,0 +1,232 @@
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+h2 {
+    font-size: 36px;
+    text-shadow: 5px 5px 5px gray;
+}
+
+h2::first-letter {
+    font-size: 60px;
+    color: rgb(255, 196, 0);
+    font-weight: bolder;
+}
+
+body {
+    width: 100%;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    padding: 50px 0;
+    width: 100%;
+    background-color: lightblue;
+}
+
+.title {
+    font-family: 'Roboto Serif', serif;
+    font-style: normal;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px rgb(255, 255, 255);
+    color: rgb(59, 113, 150);
+}
+
+nav {
+    justify-content: space-around;
+    display: flex;
+}
+
+nav a {
+    font-size: 25px;
+    color: rgb(59, 113, 150);
+    transition: all 250ms linear;
+}
+
+nav a:hover,
+nav a:focus {
+    color: black;
+    text-decoration: underline;
+}
+
+.info-title {
+    padding-left: 100px;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+section {
+    padding: 50px 100px;
+}
+
+section:nth-child(2n) {
+    background-color: rgb(240, 240, 240);
+}
+
+.gd {
+    width: 400px;
+    height: 400px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Robtop {
+    margin-right: 200px;
+    font-size: 24px;
+}
+
+/* =========================Catalog section====================== */
+
+.catalog-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.levels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.levels-item {
+    flex-grow: 1;
+    flex-basis: calc(33.33% - 30px);
+}
+
+.levels-item-img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.level-name {
+    margin-bottom: 20px;
+}
+
+.catalog span {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+/* =========================how-found section====================== */
+
+.how-found-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.how-found-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.row a {
+    flex: 1 0 0;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border: 4px solid #f0f0f0;
+    border-radius: 15px;
+    transition: all 250ms linear;
+}
+
+.first a:nth-child(1) {
+    box-shadow: -5px -5px 5px black;
+}
+
+.first a:nth-child(2) {
+    box-shadow: 5px -5px 5px black;
+}
+
+.second a:nth-child(1) {
+    box-shadow: -5px 5px 5px black;
+}
+
+.second a:nth-child(2) {
+    box-shadow: 5px 5px 5px black;
+}
+
+.row a:hover {
+    border-color: rgb(255, 196, 0);
+    background-color: #e4e3e3;
+}
+
+.row a:first-of-type {
+    margin-right: 30%;
+}
+
+.container {
+    text-align: center;
+}
+
+.banner {
+    margin: 0 auto;
+}
+
+/* =========================contact-info section====================== */
+
+.contact-info-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.adress {
+    display: flex;
+}
+
+.adress p {
+    flex-basis: 33%;
+    flex-grow: 1;
+}
+
+/* =========================footer====================== */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    padding: 50px 100px;
+    color: white;
+}
+
+footer p {
+    font-size: 24px;
+}
+
+.social {
+    display: flex;
+}
+
+.social a:not(:last-child) {
+    margin-right: 75px;
+}
