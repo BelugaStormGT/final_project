@@ -149,6 +149,7 @@ section:nth-child(2n) {
     flex: 1 0 0;
     background-color: #f0f0f0;
     padding: 20px;
+    font-weight: bolder;
     text-align: center;
     border: 4px solid #f0f0f0;
     border-radius: 15px;
